@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 /**
  * 全局异常处理器
  * 排除Gateway服务，因为Gateway使用WebFlux异常处理
- * 
+ *
  * 职责范围：
  * 1. 处理通用基础异常（参数校验、运行时异常等）
  * 2. 为各微服务模块提供兜底异常处理
@@ -151,7 +151,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(org.springframework.web.HttpMediaTypeNotSupportedException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public ResultData<Object> handleHttpMediaTypeNotSupportedException(org.springframework.web.HttpMediaTypeNotSupportedException e) {
+    public ResultData<Object> handleHttpRequestMethodNotSupportedException(org.springframework.web.HttpMediaTypeNotSupportedException e) {
         log.warn("请求媒体类型不支持: {}", e.getMessage());
         return ResultData.fail(ErrorCode.PARAM_ERROR, "请求格式不支持");
     }
@@ -215,4 +215,4 @@ public class GlobalExceptionHandler {
         log.warn("方法参数类型不匹配: {} = {}", e.getName(), e.getValue());
         return ResultData.fail(ErrorCode.PARAM_ERROR, "参数类型错误: " + e.getName());
     }
-} 
+}
