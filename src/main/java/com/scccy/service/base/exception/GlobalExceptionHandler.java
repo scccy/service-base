@@ -1,8 +1,8 @@
-package com.origin.banyu.base.exception;
+package com.scccy.service.base.exception;
 
-import com.origin.banyu.common.dto.ResultData;
-import com.origin.banyu.common.entity.ErrorCode;
-import com.origin.banyu.common.exception.BusinessException;
+import com.scccy.service.common.dto.ResultData;
+import com.scccy.service.common.entity.ErrorCode;
+import com.scccy.service.common.exception.BusinessException;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;

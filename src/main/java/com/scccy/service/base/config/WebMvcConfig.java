@@ -1,4 +1,4 @@
-package com.origin.banyu.base.config;
+package com.scccy.service.base.config;
 
 import com.alibaba.fastjson2.JSONReader;
 import com.alibaba.fastjson2.JSONWriter;

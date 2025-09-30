@@ -1,6 +1,6 @@
-package com.origin.banyu.base.config;
+package com.scccy.service.base.config;
 
-import com.origin.banyu.base.manager.OkHttpManager;
+import com.scccy.service.base.manager.OkHttpManager;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

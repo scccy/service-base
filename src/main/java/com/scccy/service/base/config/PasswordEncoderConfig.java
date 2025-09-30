@@ -1,4 +1,4 @@
-package com.origin.banyu.base.config;
+package com.scccy.service.base.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

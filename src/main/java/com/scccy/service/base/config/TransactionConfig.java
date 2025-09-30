@@ -1,4 +1,4 @@
-package com.origin.banyu.base.config;
+package com.scccy.service.base.config;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.aop.Advisor;
