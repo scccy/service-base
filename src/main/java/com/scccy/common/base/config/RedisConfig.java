@@ -1,4 +1,4 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
 
 import com.alibaba.fastjson2.support.spring6.data.redis.FastJsonRedisSerializer;

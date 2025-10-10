@@ -1,4 +1,4 @@
-package com.scccy.service.base.manager;
+package com.scccy.common.base.manager;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;

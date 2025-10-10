@@ -1,6 +1,6 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
-import com.scccy.service.base.manager.OkHttpManager;
+import com.scccy.common.base.manager.OkHttpManager;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

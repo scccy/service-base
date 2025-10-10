@@ -1,4 +1,4 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;

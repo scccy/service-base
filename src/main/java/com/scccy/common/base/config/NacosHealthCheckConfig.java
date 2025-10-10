@@ -1,4 +1,4 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

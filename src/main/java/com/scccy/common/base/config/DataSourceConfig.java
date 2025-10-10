@@ -1,4 +1,4 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.context.annotation.Bean;

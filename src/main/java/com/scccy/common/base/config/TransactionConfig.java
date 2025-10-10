@@ -1,4 +1,4 @@
-package com.scccy.service.base.config;
+package com.scccy.common.base.config;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.aop.Advisor;
